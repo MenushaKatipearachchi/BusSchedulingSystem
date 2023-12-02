@@ -1,0 +1,140 @@
+legend {
+
+    background: #1F497D;
+    color: #fff;
+    padding: 5px 10px ;
+    font-size: 32px;
+    border-radius: 5px;
+    box-shadow: 0 0 0 5px #ddd;
+    margin-left: 20px;
+}
+
+fieldset {
+    font-family: sans-serif;
+    border: 5px solid #1F497D;
+    background: #ddd ;
+    border-radius: 5px;
+    padding: 15px;
+    width: 950px;
+}
+
+table {
+    border-collapse:collapse; 
+    width: 100%;
+}
+
+h3,.SmallPara, footer, h2{text-align: center;}
+
+p.pi {text-align: left;}
+
+
+body.backgroundImage{
+    background-size: cover;
+    background-image:no-repeat;
+    background-image: url("../pics/bus4.jfif") ;
+}
+
+body {font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+
+hr {
+    border-top:black; 
+    border-color:black; 
+    border-width: 1px;
+}
+
+img.Align {
+    display: block;   
+    margin-left: auto;    
+    margin-right: auto;
+    width: 200px;
+}
+
+ul.URL {
+    list-style-type: none;
+    font-size: 18px;
+    padding: 0;
+    overflow:hidden;
+    background-color: midnightblue;
+}
+
+li.bullet {float:left;}
+
+li.bullet a {
+    font-size: 18px;
+    text-align: center;
+    display: block; 
+    color: white;
+    padding: 10px 16px;
+    text-decoration:none;
+}
+    
+li.bullet a:hover{
+    background-color: white;
+    color: black;
+}
+
+p{
+  color:#fff;
+  text-shadow:1px 1px 10px #fff, 1px 1px 10px #ccc;
+  font-size:40px;
+  text-align:center;
+  font-family:Segoe Script;
+}
+
+.text {
+    font-size: 16px;
+    font-family: Georgia, serif;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    font-weight: bolder;
+    text-decoration: none;
+    text-align: center;
+    font-variant: normal;
+    text-transform: none;
+}
+
+
+
+#image {
+    display: block;   
+    margin-left: auto;    
+    margin-right: auto;
+}
+
+#textColor {color: tomato;}
+
+
+#demobox {
+  background-color: #F0F8FF ;
+  opacity :0.75;
+}
+
+
+
+.button {
+  background-color: #7FFFD4; 
+  border: none;
+  color: white;
+  padding: 20px 42px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+.button1 {
+  background-color:  violet; 
+  color: white; 
+  border: 4px solid #E6E6FA;
+  position: absolute;
+  left :640px
+  
+}
+
+button:hover {
+    background-color:#FFE4E1;
+    color: #8B008B;
+}

@@ -1,0 +1,80 @@
+
+footer.fontStyle {font-style: italic;}
+
+body.backgroundImage{
+    background-size: cover;
+    background-image:no-repeat;
+    background-image: url("../pics/back3.jpeg") ;
+}
+
+body {font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+
+hr {
+    border-top:black; 
+    border-color:black; 
+    border-width: 2px;
+}
+
+ul.URL {
+    list-style-type: none;
+    font-size: 18px;
+    padding: 0;
+    overflow:hidden;
+    background-color: lightgreen;
+}
+
+li.bullet {float:left;}
+
+li.bullet a {
+    font-size: 18px;
+    text-align: center;
+    display: block; 
+    color: black;
+    padding: 10px 16px;
+    text-decoration:none;
+}
+    
+li.bullet a:hover{
+    background-color: white;
+    color: black;
+}
+
+.text {
+    font-size: 16px;
+    font-family: Georgia, serif;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    font-weight: bolder;
+    text-decoration: none;
+    text-align: center;
+    font-variant: normal;
+    text-transform: none;
+}
+
+input.subbtn {
+    font-size:12pt;
+    color:white;
+    background-color:rgb(85, 146, 226);
+    padding:3px;
+    height: 30px;
+    width: 75px;
+    border-radius: 3px;
+}
+
+#image {
+    display: block;   
+    margin-left: auto;    
+    margin-right: auto;
+}
+
+#textColor {color: tomato;}
+
+form {
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+}

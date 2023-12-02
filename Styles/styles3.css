@@ -1,0 +1,92 @@
+
+body.backgroundImage{
+    background-size: cover;
+    background-image:no-repeat;
+    background-image: url("../pics/bus4.jfif") ;
+}
+
+body {font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS'}
+
+hr {
+    border-top:black; 
+    border-color:black; 
+    border-width: 1px;
+}
+
+
+
+img.Align {
+    display: block;   
+    margin-left: auto;    
+    margin-right: auto;
+    width: 200px;
+}
+
+ul.URL {
+    list-style-type: none;
+    font-size: 18px;
+    padding: 0;
+    overflow:hidden;
+    background-color: midnightblue;
+}
+
+li.bullet {float:left;}
+
+li.bullet a {
+    font-size: 18px;
+    text-align: center;
+    display: block; 
+    color: white;
+    padding: 10px 16px;
+    text-decoration:none;
+}
+    
+li.bullet a:hover{
+    background-color: white;
+    color: black;
+}
+
+p1{
+  color:#fff;
+  text-shadow:1px 1px 10px #fff, 1px 1px 10px #ccc;
+  font-size:40px;
+  text-align:center;
+  font-family:Segoe Script;
+}
+
+
+.text {
+    font-size: 16px;
+    font-family: Georgia, serif;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    font-weight: bolder;
+    text-decoration: none;
+    text-align: center;
+    font-variant: normal;
+    text-transform: none;
+}
+
+#demobox {
+  background-color: #F0F8FF ;
+  opacity :0.85;
+ 
+}
+
+.logoutBtn {
+    text-decoration: none;
+    border-style: none;
+    padding: 8px; 
+    font-size:15px; 
+    margin:-50px; 
+    margin-top: 15px;
+    margin-left: 0px;
+    background-color:rgb(225, 45, 36);
+    border-radius: 10px;
+    color: #fff;
+  }
+  
+  .logoutBtn:hover {
+    background-color:#fc9185;
+    color: #ffffff;
+  }
